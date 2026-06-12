@@ -2,28 +2,41 @@
 <html>
     <head>
         <title>Website</title>
+        <!--<style>
+            body{
+                color: red
+            }
+        </style> -->
+        <link rel = "stylesheet" href = "first.css">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     </head>
+    <!-- <body style="color: green;"> -->
     <body>
-        <p>Paragraph</p>
-        <h1>H1</h1>
+        <p id="p1" class="pclass">Paragraph-1</p>
+        <p id="p2">Paragraph-2</p>
+        <h1 class="pclass">H1</h1>
         <h2>H2</h2>
         <h3>H3</h3>
         <h4>H4</h4>
         <h5>H5</h5>
         <h6>H6</h6>
-        <img src = "download.jpg" alt = "Trulli" width = "500" height = "333">
-        <video controls>
-            <source src = "download1.mp4" type = "video/mp4" width = "500" height = "333">
-        </video>
+        <div>
+            <img src = "download3.jpg" alt = "Trulli" width = "500" height = "333">
+        </div>
+        <div>
+            <video controls>
+                <source src = "download1.mp4" type = "video/mp4" width = "500" height = "333">
+            </video>
+        </div>
         <ol>
             <li>First item</li>
             <li>Second item</li>
             <li>Third item</li>
         </ol>
         <ul>
-            <li>First item</li>
-            <li>Second item</li>
-            <li>Third item</li>
+            <li>First items</li>
+            <li>Second items</li>
+            <li>Third items</li>
         </ul>
         <table>
             <tr>
@@ -41,6 +54,8 @@
             <input type = "text" id = "name" name = "name"><br><br>
             <label for = "email">Email:</label>
             <input type = "email" id = "email" name = "email"><br><br>
+            Password:
+            <input type = "password" id = "password" name = "password"><br><br>
             Gender:
             <input type = "radio" name="gender"> Male
             <input type = "radio" name="gender"> Female <br><br>
@@ -53,8 +68,22 @@
                 <option>Birthday</option>
                 <option>other</option>
             </select><br><br>
-            <button>Submit</button><br><br>
-            <input type = "submit" value = "Submit">
+            <button>Submit</button><br><br>            
+            <!--<input type = "submit" value = "Submit"> -->
         </form>
+        <nav>
+            <a href = "#">Home</a>
+            <a href = "https://web.whatsapp.com">About</a>
+            <a href = "#">Contact</a>
+            <a href = "#">Services</a>
+        </nav><br><br>
+        <div class="grid">
+            <div id="one">1</div>
+            <div id="two">2</div>
+            <div id="three">3</div>
+            <div id="four">4</div>
+            <div id="five">5</div>
+            <div id="six">6</div>
+        </div>
     </body>
 </html>
